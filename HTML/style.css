@@ -1,0 +1,45 @@
+/*
+CSS: Cascading Style Sheets
+Used to style the visual presentation of DOM elements
+ */
+
+/* Type selectors: match DOM elements with the same name */
+
+body /* apply property to body element */
+{
+  background-color: lightgray;
+}
+
+img /* apply property to img element */
+{
+  padding: 25px;
+}
+
+p, /* apply same property to multiple elements */
+li
+{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Descendant selectors: match elements that are contained by another elements */
+
+p em /* selects em elements contained in a p */
+{
+  color: red;
+}
+
+/* Class selectors: match elements assigned a specific class */
+
+.myStyle
+{
+  color: #2c7fb8;
+}
+
+/* ID selectors: match element with a given ID  */
+
+#myHeader
+{
+  color: yellow;
+  margin-left: 200px;
+}

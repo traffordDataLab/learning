@@ -1,0 +1,44 @@
+<!--
+HTML: Hypertext Markup Language
+
+HTML specifies the structure of content. Each single tag or pair of bracketed tags is an element.
+
+- Document Object Model (DOM): hierarchical structure of elements: parent, child, sibling etc.
+- Classes and IDs are used to apply styles and actions to elements.
+- Block-level elements stack on top of each other e.g. div, ul
+- Inline elements rest in line with each other e.g. em, strong
+-->
+
+<!DOCTYPE html> <!-- document type declaration -->
+<html lang="en-GB"> <!-- surrounds all HTML content -->
+  <head>
+    <meta charset="utf-8">
+    <title>Page title</title> <!-- browser window title -->
+    <link rel="stylesheet" href="style.css"> <!-- reference external CSS style sheet -->
+  </head> <!-- document head contains metadata e.g. title, references to
+    external stylesheets and scripts -->
+  <body> <!-- visible content in web page -->
+    <h1>Top-level heading</h1>
+    <p>Paragraph text</p>  <!-- tag creates a new element -->
+    <ul> <!-- unordered list -->
+      <li>Unordered list item</li> <!-- specifies a list item -->
+      <li>Unordered list item</li>
+      <li>Unordered list item</li>
+    </ul>
+    <p>Paragraph text with <em>emphasis</em></p> <!-- nesting elements -->
+    <ol> <!-- numbered list -->
+      <li>Numbered list item</li>
+      <li>Numbered list item</li>
+      <li>Numbered list item</li>
+    </ol>
+    <br />
+    <!-- the self-closing slash is optional in HTML5 -->
+    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_128.png">
+    <br />
+    <p class="myStyle">Paragraph text</p> <!-- assigning a class of "styled" to different elements -->
+    <p class="myStyle">Paragraph text</p>
+    <br />
+    <h2 id="myHeader">Second level heading</h2> <!-- assigning an id to each element -->
+    <a href="https://www.w3.org/">The W3 website</a> <!-- href is an attribute whose value is a URL -->
+  </body>
+</html>
