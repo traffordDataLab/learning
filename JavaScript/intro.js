@@ -75,7 +75,7 @@ if (test) {
 if (hour > 10) {
     greeting = "You cannot order a cappuccino after 10am";
 } else {
-    greeting = "You can order a cappuccino";
+    greeting = "Cappuccino is lovely for breakfast";
 }
 var hour = 8;
 
