@@ -1,4 +1,4 @@
-/* Javascript
+/* JavaScript
 
 Makes pages dynamic by manipulating the DOM */
 
