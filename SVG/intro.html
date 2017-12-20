@@ -1,0 +1,68 @@
+<!--  SVG: Scalable Vector Graphics  -->
+
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <title>Experiments with SVG</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto"/>
+    <style>
+
+    svg .ginger /* SVG styles are not CSS properties so good to include svg in selector */
+    {
+      fill: #B06500;
+      stroke: #000000;
+    }
+
+    </style>
+
+  </head>
+  <body>
+
+    <!-- create an SVG element and specify dimensions  -->
+    <svg width="100" height="100">
+      <!-- insert graphic here:
+    rect, circle, ellipse, line, text or path  -->
+    </svg>
+
+    <br />
+
+    <!-- small rectangle with coordinates at bottom left of SVG element -->
+    <svg width="100" height="100">
+      <rect x="0" y="90" width="10", height="10"/>
+    </svg>
+
+    <br />
+
+    <!-- small circle with fill and stroke -->
+    <svg width="1000" height="100">
+      <circle cx="500" cy="50" r="20" stroke="#FFFF00" stroke-width="3" fill="#FDB813" opacity="0.8"/>
+    </svg>
+
+    <br />
+
+    <!-- angled line -->
+    <svg width="100" height="100">
+      <line x1="0" y1="0" x2="100" y2="100" stroke="#e41a1c" stroke-width="2" />
+    </svg>
+
+    <br />
+
+    <!-- text -->
+    <svg width="1000" height="100">
+      <text x="50" y="50" font-family="'Roboto', sans-serif" font-size="25" fill="#212121">Roboto is a sans-serif typeface family developed by Google</>
+    </svg>
+
+    <!-- a cat using path (created with SVG-edit)-->
+    <svg width="640" height="480">
+      <path id="cat" d="m45.49213,94.02085c-4.31527,-3.36612 -9.24875,-1.27556 -13.99885,-1.52836c-4.16025,-3.56504 -9.21795,0.75442 -13.13859,-2.67875c-5.07019,-4.52238 3.71906,
+      -7.35393 1.84433,-12.72273c-0.2105,-7.72958 -3.52051,-14.73079 -7.0001,-21.22669c-2.4642,-5.16488 -1.59075,-11.1002 -2.38378,-16.62707c-2.84691,-3.96823 -5.6905,
+      -8.88111 -2.30302,-13.78393c3.82636,-4.13462 2.02778,-9.57395 0.52414,-14.35531c3.86893,1.13804 8.30981,6.32118 13.39982,5.28354c3.4616,-2.22927 5.56298,-0.02544 6.1405,
+      4.05477c1.81468,5.24001 2.87362,12.40584 8.60038,14.09593c6.01498,1.71744 12.74977,2.09887 17.50687,7.13771c8.69891,8.1496 12.73242,20.99717 12.39119,33.3804c0.78791,
+      5.791 8.05462,2.71757 11.65044,3.57163c6.03012,-0.26763 11.81889,1.62647 17.65532,2.92669c5.20924,1.38574 9.62177,-2.99584 14.5165,-3.52117c0.82702,5.06347 -5.59925,
+      7.17319 -9.10902,8.73359c-4.16647,1.77245 -8.67644,1.81437 -12.95638,0.51451c-9.25262,-2.30683 -19.05933,-1.70132 -27.85167,2.35551c-4.74536,1.74751 -9.35336,5.05637 -14.51546,
+      4.64253l-0.97262,-0.2528l0,0.00001l0,0.00001z" class="ginger"/>
+    </svg>
+
+  </body>
+</html>
