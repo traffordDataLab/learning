@@ -8,16 +8,6 @@ var number = 5;
 var boolean = true;
 var string = "cat"
 
-/* ARRAYS: sequence of values
-[] means array
-Remember that array positions begin at 0 */
-
-var numbers = [1, 2, 3, 4, 5];
-numbers[2] // retrieve value with bracket notation
-
-var names = ["Henry", "James", "Iris"]
-names[1]
-
 /* OBJECTS
 {} means object */
 
@@ -39,17 +29,39 @@ var countries = [
 countries[2] // returns {name: "China", continent: "Asia"}
 countries[2].continent // returns "South America"
 
-/* JSON: Javascript Object notation
-Property names are surrounded by quotation marks */
+/* ARRAYS: sequence of values
+[] means array
+Remember that array positions begin at 0 */
 
-var country = {
+var numbers = [1, 2, 3, 4, 5];
+numbers[2] // retrieve value with bracket notation
+
+var names = ["Henry", "James", "Iris"]
+names[1]
+
+/* JSON: Javascript Object notation
+Property names are surrounded by quotation marks 
+
+{
+    "property": "value"
+}
+
+or
+
+[
+    { "property": "value" },
+    { "property": "value" }
+]
+*/
+
+{
   "name": "Poland",
   "continent": "Europe"
-};
+}
 
 // GeoJSON - optimised for storing spatial data
 
-var cities <- {
+var cities = {
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
